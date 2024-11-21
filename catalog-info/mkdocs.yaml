@@ -1,0 +1,11 @@
+site_name: ${{ values.collectionGroup }}.${{ values.collectionName }}
+site_description: ${{ values.description }}
+repo_url: https://${{values.sourceControl }}/${{ values.repoOwner }}/${{ values.repoName }}
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# Note for content editors, edit only the section below
+
+
