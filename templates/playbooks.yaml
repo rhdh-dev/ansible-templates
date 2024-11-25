@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: ansible-playbook-template
-  title: Create Ansible Playbook Project
+  name: ansible-playbook-template-with-techdocs
+  title: Create Ansible Playbook Project - With TechDocs
   description: Create a new starter Ansible playbook Git project preconfigured with best practices. The project also scaffolds a collection to help get you started.
   tags:
     - recommended
