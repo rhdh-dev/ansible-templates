@@ -82,6 +82,8 @@ spec:
       input:
         url: ../catalog-info/
         values:
+          repoOwner: ${{ parameters.repoOwner }}
+          repoName: ${{ parameters.repoName }}
           repoUrl: ${{ steps.ansible.output.repoUrl }}
           owner: ${{ parameters.owner }}
           system: ${{ parameters.system }}

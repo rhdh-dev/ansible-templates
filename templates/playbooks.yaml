@@ -82,10 +82,10 @@ spec:
       input:
         url: ../catalog-info/
         values:
-          repoUrl: ${{ steps.ansible.output.repoUrl }}
           repoOwner: ${{ parameters.repoOwner }}
-          owner: ${{ parameters.owner }}
           repoName: ${{ parameters.repoName }}
+          repoUrl: ${{ steps.ansible.output.repoUrl }}
+          owner: ${{ parameters.owner }}
           system: ${{ parameters.system }}
           applicationType: playbook-project
           description: ${{ parameters.description }}
